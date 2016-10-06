@@ -23,7 +23,9 @@
     <gap:plugin name="org.apache.cordova.vibration" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="com.simplec.plugins.localnotification" />
-
+    <gap:config-file platform="ios" parent="UIViewControllerBasedStatusBarAppearance" overwrite="true">
+      <false/>
+    </gap:config-file>
 	<icon src="icon.png" />
 
     <icon src="res/icons/ios/Icon.png" gap:platform="ios" width="57" height="57" />
